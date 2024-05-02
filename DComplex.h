@@ -22,13 +22,6 @@ public:
         im = t_im;
     }
 
-    double getReal() {
-        return re;
-    }
-    double getImaginary() {
-        return im;
-    }
-
 
     double absolute();
     double phaseAngle();
